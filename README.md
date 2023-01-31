@@ -4,7 +4,7 @@ This tool is meant to be used during Red Team Assessments and to audit the XDR S
 With this tool its possible to parses the ```Database Lock Files``` of the ```Cortex XDR Agent``` by Palo Alto Networks and extracts ```Agent Settings```, the ```Hash and Salt``` of the ```Uninstall Password```, as well as possible ```Exclusions```.
 
 <p align="center">
-  <img  height="1000" src="">
+  <img  height="1000" src="https://raw.githubusercontent.com/Laokoon-SecurITy/Cortex-XDR-Config-Extractor/main/img/console.png">
 </p>
 
 
@@ -37,7 +37,7 @@ The databse lock files can be found within the zip:
 logs_[ID].zip\Persistence\agent_settings.db\
 ```
 <p align="center">
-  <img  height="300" src="">
+  <img  height="300" src="https://raw.githubusercontent.com/Laokoon-SecurITy/Cortex-XDR-Config-Extractor/main/img/output.png">
 </p>
 
 
