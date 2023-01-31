@@ -1,7 +1,7 @@
 # Cortex XDR Config Extractor
 This tool is meant to be used during Red Team Assessments and to audit the XDR Settings.
 
-With this tool its possible to parses the ```Database Lock Files``` of the ```Cortex XDR Agent``` by Palo Alto Networks and extracts ```Agent Settings```, the ```Hash and Salt``` of the ```Uninstall Password```, as well as possible ```Exclusions```.
+With this tool its possible to parse the ```Database Lock Files``` of the ```Cortex XDR Agent``` by Palo Alto Networks and extract ```Agent Settings```, the ```Hash and Salt``` of the ```Uninstall Password```, as well as possible ```Exclusions```.
 
 <p align="center">
   <img  height="1000" src="https://raw.githubusercontent.com/Laokoon-SecurITy/Cortex-XDR-Config-Extractor/main/img/output.png">
@@ -42,14 +42,14 @@ logs_[ID].zip\Persistence\agent_settings.db\
 
 
 ### Agent Version ≥7.8
-Support Files files from Agents running Version 7.8 or higher are encrypted, but if you have elevated privileges on the Windows Maschine the files can be directly copied from the following directory, without encryption.
+Support files from Agents running Version 7.8 or higher are encrypted, but if you have elevated privileges on the Windows Maschine the files can be directly copied from the following directory, without encryption.
 
 #### Method I
 ```
 C:\ProgramData\Cyvera\LocalSystem\Persistence\agent_settings.db\
 ```
 #### Method II
-Generated Support Files are not deleted regulary, so it might be possible to find old, unencrypted Support Files in the following folders:
+Generated Support Files are not deleted regulary, so it might be possible to find old, unencrypted Support Files in the following folder:
 ```
 C:\Users\[Username]\AppData\Roaming\PaloAltoNetworks\Traps\support\
 ```
@@ -59,8 +59,6 @@ Supposedly, since Agent version 8.1, it should no longer be possible to pull the
 ## Credits
 This tool relies on a technique originally released by [mr.d0x](https://twitter.com/mrd0x) in April 2022 
 https://mrd0x.com/cortex-xdr-analysis-and-bypass/
-
-
 
 ## Legal disclaimer
 Usage of Cortex-XDR-Config-Extractor for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program. Only use for educational purposes.
