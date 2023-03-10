@@ -1,4 +1,8 @@
 # Cortex XDR Config Extractor
+
+> :warning: For more information, please visit https://laokoon-security.com/cortex-xdr-config-exctractor/ (currently in German only)
+
+
 This tool is meant to be used during Red Team Assessments and to audit the XDR Settings.
 
 With this tool its possible to parse the ```Database Lock Files``` of the ```Cortex XDR Agent``` by Palo Alto Networks and extract ```Agent Settings```, the ```Hash and Salt``` of the ```Uninstall Password```, as well as possible ```Exclusions```.
